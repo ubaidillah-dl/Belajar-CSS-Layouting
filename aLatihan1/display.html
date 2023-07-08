@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Display</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- div digunakan untuk mengelompokkan tag elemen html -->
+		<!-- span digunakan untuk mengelompokkan teks -->
+		<div class="header">
+			<h1>Selamat <span>Datang</span> Di Website Kami</h1>
+		</div>
+		
+		<div class="navigasi">
+			<h2>Daftar Link</h2>
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
+			<a href="#">Link 5</a>
+		</div>
+
+		<div class="main">
+			<h2>Judul Artikel</h2>
+			<img src="Assets/Watermark.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright 2022. Ubaidillah</p>
+		</div>
+		<hr>
+		<h4>Catatan</h4>
+		<h6 class="indet">Inline</h6>
+		<ul id="inlinec">
+			<li>Elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat</li>
+			<li>Lebar dan tinggi elemennya sebesar konten yang ada di dalamnya</li>
+			<li>Kita tidak dapat mengatur tinggi dan lebar dari elemen inline</li>
+			<li><i>Margin dan padding hanya mempengaruhi elemen secara horizontal tidak vertikal</i></li>
+		</ul>
+		<p class="indet"><b>Elemen yang memiliki default display inline :</b></p>
+		<p class="indet">b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea</p>
+		<br>
+		<h6 class="indet">Inline-Block</h6>
+		<ul id="inlinec">
+			<li>Tidak ada elemen yang secara default memiliki properti display : inline-block;</li>
+			<li>Kita harus ubah secara manual properti tersebut</li>
+			<li>Perilaku dasarnya sama dengan elemen inline</li>
+			<li>Perbedaannya, elemen inline-block dapat kita atur tinggi dan lebarnya</li>
+		</ul>
+		<br>
+		<h6 class="indet">Block</h6>
+		<ul id="inlinec">
+			<li>Elemen html yang secara default menambahkan baris baru ketika dibuat</li>
+			<li>Jika tidak diatur lebarnya, maka lebar default dari elemen block akan memenuhi lebar dari browser / parentnya</li>
+			<li>Kita dapat mengatur tinggi dan lebar dari elemen block</li>
+			<li>Didalam elemen block, kita dapat menyimpan tag dengan elemen inline, inline-block bahkan elemen block lagi</li>
+		</ul>
+		<p class="indet"><b>Elemen yang memiliki default display block :</b></p>
+		<p class="indet">h1-h6, p, ol, ul, li, form, hr, div</p>
+	</body>
+</html>

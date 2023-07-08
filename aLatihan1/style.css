@@ -1,0 +1,24 @@
+.header{
+	background-color: lightgreen;
+}
+/*.navigasi{
+	background-color: pink;
+}*/
+.main{
+	background-color: lightgreen;
+}
+.copyright{
+	background-color: lightblue;
+}
+.header span{
+	background-color: lightblue;
+}
+.indet{
+	text-indent: 20px;
+}
+a{
+	background-color: lightgreen;
+	width: 200px;
+	height: 200x;
+	display: inline-block;
+}

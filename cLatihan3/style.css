@@ -1,0 +1,87 @@
+.satu{
+	width: 100px;
+	height: 100px;
+
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	background-color: lightblue;
+}
+
+.dua{
+	width: 100px;
+	height: 100px;
+	background-color: lightgreen;
+
+	margin-bottom: 30px;
+}
+.tiga{
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+
+	margin-top: 20px;
+}
+.empat{
+	width: 100px;
+	height: 100px;
+	background-color: yellowgreen;
+	display: inline-block;
+
+	margin-right: 30px;
+}
+.lima{
+	width: 150px;
+	height: 150px;
+	background-color: lightgreen;
+	display: inline-block;
+
+	margin-left: 20px;
+}
+
+.enam{
+	width: 150px;
+	height: 150px;
+	background-color: lightgreen;
+	margin-left: -20px;
+}
+.tujuh{
+	width: 60px;
+	height: 60px;
+	background-color: pink;
+	margin-top: -30px;
+}
+.delapan{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+}
+
+.sembilan{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sepuluh{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+
+	/*satu nilai
+	margin : 10px; artinya semua margin bernilai 10px
+	*/
+
+	/*dua nilai
+	margin : 10px 20px; (atas-bawah) (kanan-kiri)*/
+
+	/*tiga nilai
+	margin : 10px 20px 30px; (atas) (kanan-kiri) (bawah)*/
+
+	/*empat nilai
+	margin : 10px 20px 25px 30px; (atas) (kanan) (bawah) (kiri)*/
+
+	margin: 10px 20px 30px 40px;
+}

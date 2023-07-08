@@ -1,0 +1,38 @@
+div.div1{
+	background-color: lightblue;
+	width: 200px;
+	height: 200px;
+}
+div.div2{
+	background-color: lightgreen;
+	width: 50%;
+	height: 200px;
+}
+div.div3{
+	background-color: lightblue;
+	width: 200px;
+	height: 200px;
+}
+div.div4{
+	background-color: pink;
+	width: 50%;
+	height: 50%;
+}
+div.div5{
+	background-color: lightblue;
+	width: 200px;
+	height: 400px;
+	overflow: auto;
+}
+div.div6{
+	background-color: lightblue;
+	width: 200px;
+	height: 400px;
+	overflow: hidden;
+}
+div.div7{
+	background-color: lightblue;
+	width: 200px;
+	height: 400px;
+	overflow: scroll;
+}
